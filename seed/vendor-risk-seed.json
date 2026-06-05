@@ -1,0 +1,390 @@
+{
+  "generated_at": "2026-06-05T00:00:00Z",
+  "note": "Synthetic hackathon seed data using real-world vendor names for demo purposes only. The breach data below is fictional and should not be interpreted as a factual claim about any company.",
+  "vendors": [
+    {
+      "vendor_code": "VND-001",
+      "legal_name": "IBM Consulting",
+      "display_name": "IBM Consulting",
+      "primary_industry": "banking",
+      "headquarters_country": "US",
+      "status": "active",
+      "contract": {
+        "contract_number": "CNT-2026-001",
+        "title": "Core Banking Modernization Support",
+        "business_unit": "Digital Banking",
+        "owner_name": "Ayesha Khan",
+        "start_date": "2025-07-01",
+        "end_date": "2027-06-30",
+        "renewal_type": "auto",
+        "auto_renew": true,
+        "renewal_notice_days": 90,
+        "currency_code": "USD",
+        "contract_value_cents": 420000000,
+        "status": "active",
+        "risk_review_due_date": "2026-09-15"
+      },
+      "scores": {
+        "financial_score": 82,
+        "cyber_score": 88,
+        "compliance_score": 75,
+        "overall_score": 83,
+        "risk_level": "LOW"
+      },
+      "active_breaches": [],
+      "signals": [
+        { "dimension": "financial", "signal_type": "on_time_payment_trend", "severity": "low", "impact_points": 4, "observed_at": "2026-05-20T10:00:00Z", "source": "AP ledger feed" },
+        { "dimension": "cyber", "signal_type": "certification_current", "severity": "low", "impact_points": 3, "observed_at": "2026-05-18T12:00:00Z", "source": "Vendor security portal" },
+        { "dimension": "compliance", "signal_type": "slas_met", "severity": "low", "impact_points": 5, "observed_at": "2026-05-25T09:00:00Z", "source": "SLA tracker" }
+      ]
+    },
+    {
+      "vendor_code": "VND-002",
+      "legal_name": "Fiserv, Inc.",
+      "display_name": "Fiserv",
+      "primary_industry": "banking",
+      "headquarters_country": "US",
+      "status": "monitoring",
+      "contract": {
+        "contract_number": "CNT-2026-002",
+        "title": "Payments Processing and Settlement Services",
+        "business_unit": "Treasury Operations",
+        "owner_name": "Rohan Mehta",
+        "start_date": "2025-10-01",
+        "end_date": "2027-09-30",
+        "renewal_type": "fixed",
+        "auto_renew": false,
+        "renewal_notice_days": 120,
+        "currency_code": "USD",
+        "contract_value_cents": 375000000,
+        "status": "active",
+        "risk_review_due_date": "2026-08-10"
+      },
+      "scores": {
+        "financial_score": 66,
+        "cyber_score": 62,
+        "compliance_score": 68,
+        "overall_score": 64,
+        "risk_level": "MEDIUM"
+      },
+      "active_breaches": [],
+      "signals": [
+        { "dimension": "financial", "signal_type": "payment_delay_spike", "severity": "medium", "impact_points": 16, "observed_at": "2026-05-22T13:30:00Z", "source": "AP ledger feed" },
+        { "dimension": "cyber", "signal_type": "patch_lag_observed", "severity": "medium", "impact_points": 14, "observed_at": "2026-05-21T08:00:00Z", "source": "Vulnerability scanner" },
+        { "dimension": "compliance", "signal_type": "renewal_notice_pending", "severity": "low", "impact_points": 6, "observed_at": "2026-05-23T07:45:00Z", "source": "Contract calendar" }
+      ]
+    },
+    {
+      "vendor_code": "VND-003",
+      "legal_name": "Temenos Headquarters SA",
+      "display_name": "Temenos",
+      "primary_industry": "banking",
+      "headquarters_country": "CH",
+      "status": "active",
+      "contract": {
+        "contract_number": "CNT-2026-003",
+        "title": "Digital Core Banking Platform Subscription",
+        "business_unit": "Retail Banking",
+        "owner_name": "Priya Nair",
+        "start_date": "2025-08-15",
+        "end_date": "2027-08-14",
+        "renewal_type": "evergreen",
+        "auto_renew": true,
+        "renewal_notice_days": 60,
+        "currency_code": "USD",
+        "contract_value_cents": 115000000,
+        "status": "active",
+        "risk_review_due_date": "2026-10-01"
+      },
+      "scores": {
+        "financial_score": 57,
+        "cyber_score": 71,
+        "compliance_score": 63,
+        "overall_score": 64,
+        "risk_level": "MEDIUM"
+      },
+      "active_breaches": [],
+      "signals": [
+        { "dimension": "financial", "signal_type": "invoice_dispute", "severity": "medium", "impact_points": 15, "observed_at": "2026-05-19T11:00:00Z", "source": "AP workflow" },
+        { "dimension": "cyber", "signal_type": "soc2_valid", "severity": "low", "impact_points": 5, "observed_at": "2026-05-10T12:00:00Z", "source": "Compliance repository" },
+        { "dimension": "compliance", "signal_type": "minor_sla_slippage", "severity": "medium", "impact_points": 12, "observed_at": "2026-05-24T15:30:00Z", "source": "SLA tracker" }
+      ]
+    },
+    {
+      "vendor_code": "VND-004",
+      "legal_name": "Epic Systems Corporation",
+      "display_name": "Epic Systems",
+      "primary_industry": "healthcare",
+      "headquarters_country": "US",
+      "status": "active",
+      "contract": {
+        "contract_number": "CNT-2026-004",
+        "title": "Patient Record Integration and Support",
+        "business_unit": "Clinical Operations",
+        "owner_name": "Meera Iyer",
+        "start_date": "2025-09-01",
+        "end_date": "2028-08-31",
+        "renewal_type": "auto",
+        "auto_renew": true,
+        "renewal_notice_days": 90,
+        "currency_code": "USD",
+        "contract_value_cents": 290000000,
+        "status": "active",
+        "risk_review_due_date": "2026-11-20"
+      },
+      "scores": {
+        "financial_score": 91,
+        "cyber_score": 84,
+        "compliance_score": 78,
+        "overall_score": 84,
+        "risk_level": "LOW"
+      },
+      "active_breaches": [],
+      "signals": [
+        { "dimension": "financial", "signal_type": "strong_payment_history", "severity": "low", "impact_points": 2, "observed_at": "2026-05-14T10:15:00Z", "source": "AP ledger feed" },
+        { "dimension": "cyber", "signal_type": "vulnerability_baseline_clean", "severity": "low", "impact_points": 6, "observed_at": "2026-05-16T09:10:00Z", "source": "Scanner summary" },
+        { "dimension": "compliance", "signal_type": "sla_met", "severity": "low", "impact_points": 8, "observed_at": "2026-05-26T08:40:00Z", "source": "Contract SLA tracker" }
+      ]
+    },
+    {
+      "vendor_code": "VND-005",
+      "legal_name": "McKesson Corporation",
+      "display_name": "McKesson",
+      "primary_industry": "healthcare",
+      "headquarters_country": "US",
+      "status": "monitoring",
+      "contract": {
+        "contract_number": "CNT-2026-005",
+        "title": "Healthcare Supply Chain and Distribution Services",
+        "business_unit": "Supply Chain",
+        "owner_name": "Farah Ali",
+        "start_date": "2025-06-01",
+        "end_date": "2026-12-31",
+        "renewal_type": "fixed",
+        "auto_renew": false,
+        "renewal_notice_days": 75,
+        "currency_code": "USD",
+        "contract_value_cents": 460000000,
+        "status": "at_risk",
+        "risk_review_due_date": "2026-06-20"
+      },
+      "scores": {
+        "financial_score": 33,
+        "cyber_score": 39,
+        "compliance_score": 35,
+        "overall_score": 37,
+        "risk_level": "CRITICAL"
+      },
+      "active_breaches": [
+        {
+          "breach_code": "BR-2026-005-A",
+          "breach_type": "delivery_window_miss",
+          "severity": "critical",
+          "detected_at": "2026-05-28T14:00:00Z",
+          "description": "Three consecutive delivery SLAs were missed for cold-chain replenishment in the Midwest region."
+        }
+      ],
+      "signals": [
+        { "dimension": "financial", "signal_type": "invoice_holds", "severity": "high", "impact_points": 30, "observed_at": "2026-05-29T13:00:00Z", "source": "AP ledger feed" },
+        { "dimension": "cyber", "signal_type": "certificate_expired_warning", "severity": "high", "impact_points": 24, "observed_at": "2026-05-27T08:30:00Z", "source": "Compliance repository" },
+        { "dimension": "compliance", "signal_type": "active_sla_breach", "severity": "critical", "impact_points": 34, "observed_at": "2026-05-28T14:00:00Z", "source": "SLA monitor" }
+      ]
+    },
+    {
+      "vendor_code": "VND-006",
+      "legal_name": "Stripe, Inc.",
+      "display_name": "Stripe",
+      "primary_industry": "fintech",
+      "headquarters_country": "US",
+      "status": "active",
+      "contract": {
+        "contract_number": "CNT-2026-006",
+        "title": "Payment Acceptance and Fraud Prevention Services",
+        "business_unit": "Merchant Services",
+        "owner_name": "Nikhil Sharma",
+        "start_date": "2025-11-01",
+        "end_date": "2027-10-31",
+        "renewal_type": "auto",
+        "auto_renew": true,
+        "renewal_notice_days": 60,
+        "currency_code": "USD",
+        "contract_value_cents": 120000000,
+        "status": "active",
+        "risk_review_due_date": "2026-09-30"
+      },
+      "scores": {
+        "financial_score": 74,
+        "cyber_score": 69,
+        "compliance_score": 72,
+        "overall_score": 71,
+        "risk_level": "MEDIUM"
+      },
+      "active_breaches": [],
+      "signals": [
+        { "dimension": "financial", "signal_type": "minor_payment_variance", "severity": "low", "impact_points": 6, "observed_at": "2026-05-15T09:30:00Z", "source": "AP ledger feed" },
+        { "dimension": "cyber", "signal_type": "vulnerability_patch_window", "severity": "medium", "impact_points": 14, "observed_at": "2026-05-17T18:00:00Z", "source": "Scanner summary" },
+        { "dimension": "compliance", "signal_type": "sla_met", "severity": "low", "impact_points": 5, "observed_at": "2026-05-24T13:10:00Z", "source": "SLA tracker" }
+      ]
+    },
+    {
+      "vendor_code": "VND-007",
+      "legal_name": "Plaid, Inc.",
+      "display_name": "Plaid",
+      "primary_industry": "fintech",
+      "headquarters_country": "US",
+      "status": "monitoring",
+      "contract": {
+        "contract_number": "CNT-2026-007",
+        "title": "Account Linking and Data Connectivity Services",
+        "business_unit": "Open Finance",
+        "owner_name": "Ananya Rao",
+        "start_date": "2025-05-15",
+        "end_date": "2026-11-14",
+        "renewal_type": "fixed",
+        "auto_renew": false,
+        "renewal_notice_days": 90,
+        "currency_code": "USD",
+        "contract_value_cents": 65000000,
+        "status": "at_risk",
+        "risk_review_due_date": "2026-06-12"
+      },
+      "scores": {
+        "financial_score": 28,
+        "cyber_score": 44,
+        "compliance_score": 31,
+        "overall_score": 36,
+        "risk_level": "CRITICAL"
+      },
+      "active_breaches": [
+        {
+          "breach_code": "BR-2026-007-A",
+          "breach_type": "uptime_sla_miss",
+          "severity": "critical",
+          "detected_at": "2026-05-30T22:00:00Z",
+          "description": "Monthly uptime fell below the contractual 99.95 percent threshold after two service interruptions."
+        }
+      ],
+      "signals": [
+        { "dimension": "financial", "signal_type": "late_invoice_pattern", "severity": "high", "impact_points": 28, "observed_at": "2026-05-26T16:20:00Z", "source": "AP ledger feed" },
+        { "dimension": "cyber", "signal_type": "open_critical_vulnerability", "severity": "high", "impact_points": 25, "observed_at": "2026-05-29T11:45:00Z", "source": "Vulnerability scanner" },
+        { "dimension": "compliance", "signal_type": "active_sla_breach", "severity": "critical", "impact_points": 36, "observed_at": "2026-05-30T22:00:00Z", "source": "SLA monitor" }
+      ]
+    },
+    {
+      "vendor_code": "VND-008",
+      "legal_name": "Salesforce, Inc.",
+      "display_name": "Salesforce",
+      "primary_industry": "retail",
+      "headquarters_country": "US",
+      "status": "active",
+      "contract": {
+        "contract_number": "CNT-2026-008",
+        "title": "CRM and Customer Journey Analytics",
+        "business_unit": "Retail Experience",
+        "owner_name": "Lauren Chen",
+        "start_date": "2025-12-01",
+        "end_date": "2027-11-30",
+        "renewal_type": "auto",
+        "auto_renew": true,
+        "renewal_notice_days": 60,
+        "currency_code": "USD",
+        "contract_value_cents": 185000000,
+        "status": "active",
+        "risk_review_due_date": "2026-10-20"
+      },
+      "scores": {
+        "financial_score": 88,
+        "cyber_score": 93,
+        "compliance_score": 90,
+        "overall_score": 91,
+        "risk_level": "LOW"
+      },
+      "active_breaches": [],
+      "signals": [
+        { "dimension": "financial", "signal_type": "stable_payment_history", "severity": "low", "impact_points": 3, "observed_at": "2026-05-12T10:00:00Z", "source": "AP ledger feed" },
+        { "dimension": "cyber", "signal_type": "certifications_current", "severity": "low", "impact_points": 4, "observed_at": "2026-05-18T10:30:00Z", "source": "Compliance repository" },
+        { "dimension": "compliance", "signal_type": "obligations_all_met", "severity": "low", "impact_points": 2, "observed_at": "2026-05-25T14:45:00Z", "source": "Obligation tracker" }
+      ]
+    },
+    {
+      "vendor_code": "VND-009",
+      "legal_name": "NCR Voyix Corporation",
+      "display_name": "NCR Voyix",
+      "primary_industry": "retail",
+      "headquarters_country": "US",
+      "status": "monitoring",
+      "contract": {
+        "contract_number": "CNT-2026-009",
+        "title": "Store POS Platform and Managed Support",
+        "business_unit": "Store Operations",
+        "owner_name": "Carlos Mendes",
+        "start_date": "2025-08-01",
+        "end_date": "2027-07-31",
+        "renewal_type": "fixed",
+        "auto_renew": false,
+        "renewal_notice_days": 75,
+        "currency_code": "USD",
+        "contract_value_cents": 105000000,
+        "status": "at_risk",
+        "risk_review_due_date": "2026-06-18"
+      },
+      "scores": {
+        "financial_score": 45,
+        "cyber_score": 41,
+        "compliance_score": 47,
+        "overall_score": 43,
+        "risk_level": "HIGH"
+      },
+      "active_breaches": [],
+      "signals": [
+        { "dimension": "financial", "signal_type": "repeated_payments_late", "severity": "high", "impact_points": 22, "observed_at": "2026-05-28T09:30:00Z", "source": "AP ledger feed" },
+        { "dimension": "cyber", "signal_type": "vulnerability_exposure", "severity": "high", "impact_points": 21, "observed_at": "2026-05-27T12:15:00Z", "source": "Vulnerability scanner" },
+        { "dimension": "compliance", "signal_type": "renewal_documentation_missing", "severity": "medium", "impact_points": 16, "observed_at": "2026-05-29T16:40:00Z", "source": "Contract repository" }
+      ]
+    },
+    {
+      "vendor_code": "VND-010",
+      "legal_name": "Cognizant Technology Solutions Corporation",
+      "display_name": "Cognizant",
+      "primary_industry": "retail",
+      "headquarters_country": "US",
+      "status": "monitoring",
+      "contract": {
+        "contract_number": "CNT-2026-010",
+        "title": "Digital Commerce Support and Release Engineering",
+        "business_unit": "Ecommerce",
+        "owner_name": "Sana Patel",
+        "start_date": "2025-04-01",
+        "end_date": "2026-12-31",
+        "renewal_type": "fixed",
+        "auto_renew": false,
+        "renewal_notice_days": 60,
+        "currency_code": "USD",
+        "contract_value_cents": 210000000,
+        "status": "at_risk",
+        "risk_review_due_date": "2026-06-08"
+      },
+      "scores": {
+        "financial_score": 22,
+        "cyber_score": 37,
+        "compliance_score": 29,
+        "overall_score": 31,
+        "risk_level": "CRITICAL"
+      },
+      "active_breaches": [
+        {
+          "breach_code": "BR-2026-010-A",
+          "breach_type": "release_window_miss",
+          "severity": "critical",
+          "detected_at": "2026-05-31T18:00:00Z",
+          "description": "Two production release windows were missed, blocking a retail promotion launch."
+        }
+      ],
+      "signals": [
+        { "dimension": "financial", "signal_type": "payment_arrears", "severity": "critical", "impact_points": 32, "observed_at": "2026-05-30T08:30:00Z", "source": "AP ledger feed" },
+        { "dimension": "cyber", "signal_type": "unpatched_critical_vuln", "severity": "high", "impact_points": 26, "observed_at": "2026-05-30T10:15:00Z", "source": "Vulnerability scanner" },
+        { "dimension": "compliance", "signal_type": "active_sla_breach", "severity": "critical", "impact_points": 35, "observed_at": "2026-05-31T18:00:00Z", "source": "SLA monitor" }
+      ]
+    }
+  ]
+}
